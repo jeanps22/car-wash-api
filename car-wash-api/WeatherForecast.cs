@@ -6,7 +6,7 @@ namespace car_wash_api
 
         public int TemperatureC { get; set; }
 
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.55565);
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5);
 
         public string? Summary { get; set; }
     }
